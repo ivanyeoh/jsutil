@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanyeoh/jsutil.git"
+  },
+  "author": "Ivan Yeoh <ivanbone@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "jest": "^24.9.0"
