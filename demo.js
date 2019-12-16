@@ -6,4 +6,3 @@ router
     console.log('b page')
   })
   .init()
-  .navigate('/a')

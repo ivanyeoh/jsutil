@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/babel --watch src --out-dir lib",
+    "build": "./node_modules/.bin/babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
@@ -12,5 +14,12 @@
   },
   "author": "Ivan Yeoh <ivanbone@gmail.com>",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "@sindresorhus/slugify": "^0.9.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6"
+  }
 }
